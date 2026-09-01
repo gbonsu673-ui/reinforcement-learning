@@ -2,7 +2,7 @@
 
 ## 1. Q-Learning on Gymnasium FrozenLake-v1 (8x8 Tiles)
 
-Frozen lake involves crossing a frozen lake from start to goal without falling into any holes by walking over the frozen lake. The player may not always move in the intended direction due to the slippery nature of the frozen lake. More details about the environment, including the observation and action spaces can be found at [Frozen Lake](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
+Frozen lake involves crossing a frozen lake from start to goal without falling into any holes by walking over the frozen lake. The player may not always move in the intended direction due to the slippery nature of the frozen lake. More details about the environment, including the observation and action spaces can be found at [Frozen Lake](https://gymnasium.farama.org/environments/toy_text/frozen_lake/).
 
 **Behaviour Policy**
 
@@ -32,9 +32,9 @@ The following parameters were set for training:
 - `episodes`=`15_000`
 - `learning_rate`=`0.9`
 - `discount_factor`=`0.9`
-- `is_slippery`=`False` this is to eliminate the transition probabilities
+- `is_slippery`=`True` this introduces the transition probabilities
 
- ![demo](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake.gif)
+ ![demo](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake_slippery.gif)
 
 **Code reference**
 - [frozenlake.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake.py)
