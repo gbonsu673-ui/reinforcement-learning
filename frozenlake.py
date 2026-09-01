@@ -86,5 +86,5 @@ def run(episodes, is_training=True, render=False, learning_rate=0.9, discount_fa
         f.close()
 
 if __name__ == '__main__':
-    episodes = 15_000
+    episodes = 25
     run(episodes, is_training=False, render=True)
