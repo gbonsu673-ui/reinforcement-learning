@@ -32,7 +32,7 @@ The following parameters were set for training:
 - `episodes`=`15_000`
 - `learning_rate`=`0.9`
 - `discount_factor`=`0.9`
-- `is_slippery`=`True` this introduces the transition probabilities
+- `is_slippery`=`True` this introduces the transition probabilities into the environment
 
  ![demo](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake_slippery.gif)
 
