@@ -6,7 +6,7 @@ import pickle
 def run(episodes, is_training=True, render=False, learning_rate=0.9, discount_factor=0.9):
 
     # initialize the FrozenLake environment
-    env = gym.make('FrozenLake-v1', map_name='8x8', is_slippery=False, render_mode='human' if render else None)
+    env = gym.make('FrozenLake-v1', map_name='8x8', is_slippery=True, render_mode='human' if render else None)
 
     # initialize a Q lookup table only when we are training mode. Load otherwise
     if (is_training):
@@ -86,5 +86,5 @@ def run(episodes, is_training=True, render=False, learning_rate=0.9, discount_fa
         f.close()
 
 if __name__ == '__main__':
-    episodes = 25
+    episodes = 30
     run(episodes, is_training=False, render=True)
