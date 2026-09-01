@@ -40,3 +40,5 @@ The following parameters were set for training:
 - [frozenlake.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake.py)
 
 
+## 2. Q-Learning on Gymnasium Taxi-v3 (Multiple Objectives)
+
