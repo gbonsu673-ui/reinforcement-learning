@@ -21,6 +21,7 @@ $$
 $$
 
 **Q-Learning Update Rule**
+
 The Q-Learning update rule is used to update the Q-lookup table during training (it is the same rule used in subsequent environments)
 
 $$
@@ -28,6 +29,7 @@ Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a} Q(s
 $$
 
 **Results**
+
 The following parameters were set for training:
 - `episodes`=`100_000`
 - `learning_rate`=`0.9`
