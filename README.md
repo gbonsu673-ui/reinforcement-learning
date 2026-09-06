@@ -42,5 +42,8 @@ The following parameters were set for training:
 - [frozenlake.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake.py)
 
 
-## 2. Deep Q-Learning on Gymnasium FrozenLake-v1 (Function Approximation with Neural Network)
+## 2. SARSA(λ) on Gymnasium FrozenLake-v1 (8x8 Tiles)
+
+
+## 3. Deep Q-Learning on Gymnasium FrozenLake-v1 (Function Approximation with Neural Network)
 
