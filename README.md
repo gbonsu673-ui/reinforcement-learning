@@ -44,6 +44,24 @@ The following parameters were set for training:
 
 ## 2. SARSA(λ) on Gymnasium FrozenLake-v1 (8x8 Tiles)
 
+**TD error:**
+
+$$\delta_t = r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t)$$
+
+**Eligibility trace:**
+
+$$
+e_t(s,a) =
+\begin{cases}
+\gamma \lambda \, e_{t-1}(s,a) + 1 & \text{if } s=s_t, a=a_t \\
+\gamma \lambda \, e_{t-1}(s,a) & \text{otherwise}
+\end{cases}
+$$
+
+**Update rule:**
+
+$$Q(s,a) \leftarrow Q(s,a) + \alpha \, \delta_t \, e_t(s,a) \quad \forall s,a$$
+
 
 ## 3. Deep Q-Learning on Gymnasium FrozenLake-v1 (Function Approximation with Neural Network)
 
