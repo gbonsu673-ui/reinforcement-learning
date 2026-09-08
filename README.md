@@ -44,7 +44,7 @@ The following parameters were set for training:
 
 ## 2. SARSA(λ) on Gymnasium FrozenLake-v1 (8x8 Tiles)
 
-**TD error:**
+**TD Target:**
 
 $$\delta_t = r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t)$$
 
