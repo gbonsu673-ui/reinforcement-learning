@@ -43,6 +43,7 @@ The following parameters were set for training:
 
 
 ## 2. SARSA(λ) on Gymnasium FrozenLake-v1 (8x8 Tiles)
+Here, I use the SARSA control to the FrozenLake-v1 8x8 environment. The implementation uses the backward-view of SARSA, which utilises the eligibility trace equation below to weight the contribution of states to a TD-error. The TD update rule used to learn environment is also provided below.
 
 **TD Target:**
 
@@ -64,4 +65,6 @@ $$Q(s,a) \leftarrow Q(s,a) + \alpha \, \delta_t \, e_t(s,a) \quad \forall s,a$$
 
 
 ## 3. Deep Q-Learning on Gymnasium FrozenLake-v1 (Function Approximation with Neural Network)
+
+This is Deep Reinforcement Learning project that uses the Deep Q-Learning (DQL) algorithm. It uses two neural networks: a Policy Deep Q-Network (DQN) and a Target DQN, to train the FrozenLake-v1 4x4 environment. The Epsilon-Greedy algorithm and the Experience Replay technique are also used as part of DQL to help train the learning agent. PyTorch is used to build the DQNs.
 
