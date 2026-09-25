@@ -63,8 +63,14 @@ $$
 
 $$Q(s,a) \leftarrow Q(s,a) + \alpha \, \delta_t \, e_t(s,a) \quad \forall s,a$$
 
+**Code reference**
+- [frozenlake_sarsa_lambda.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake_sarsa_lambda.py)
+
 
 ## 3. Deep Q-Learning on Gymnasium FrozenLake-v1 (Function Approximation with Neural Network)
 
 This is Deep Reinforcement Learning project that uses the Deep Q-Learning (DQL) algorithm. It uses two neural networks: a Policy Deep Q-Network (DQN) and a Target DQN, to train the FrozenLake-v1 4x4 environment. The Epsilon-Greedy algorithm and the Experience Replay technique are also used as part of DQL to help train the learning agent. PyTorch is used to build the DQNs.
+
+**Code reference**
+- [frozenlake_dql.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake_dql.py)
 
