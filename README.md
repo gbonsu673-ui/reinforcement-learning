@@ -77,5 +77,7 @@ This is Deep Reinforcement Learning project that uses the Deep Q-Learning (DQL) 
 
 In all three algorithms, when there are transition probabilities in the environment (i.e. when the slippery flag is set to true), the agent acts in the environment as shown in the gif below. It takes more episodes to train this probabilistic environment than when it is deterministic (i.e when slippery flag is set to false).
 
- ![demo](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake_slippery.gif)
+<p align="center">
+  <img src="https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake_slippery.gif" alt="animated" />
+</p>
 
