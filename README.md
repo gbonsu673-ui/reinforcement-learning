@@ -36,8 +36,6 @@ The following parameters were set for training:
 - `discount_factor`=`0.9`
 - `is_slippery`=`True` this introduces the transition probabilities into the environment
 
- ![demo](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake_slippery.gif)
-
 **Code reference**
 - [frozenlake.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake.py)
 
@@ -73,4 +71,11 @@ This is Deep Reinforcement Learning project that uses the Deep Q-Learning (DQL) 
 
 **Code reference**
 - [frozenlake_dql.py](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/frozenlake_dql.py)
+
+
+## Observation
+
+In all three algorithms, when there are transition probabilities in the environment (i.e. when the slippery flag is set to true), the agent acts in the environment as shown in the gif below. It takes more episodes to train this probabilistic environment than when it is deterministic (i.e when slippery flag is set to false).
+
+ ![demo](https://github.com/gbonsu673-ui/reinforcement-learning/blob/main/assets/frozenlake_slippery.gif)
 
