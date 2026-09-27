@@ -22,7 +22,7 @@ $$
 
 **Q-Learning Update Rule**
 
-The Q-Learning update rule is used to update the Q-lookup table during training (it is the same rule used in subsequent environments)
+The Q-Learning update rule is used to update the Q-lookup table during training.
 
 $$
 Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a} Q(s_{t+1}, a) - Q(s_t, a_t) \right]
