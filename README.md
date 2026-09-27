@@ -41,7 +41,7 @@ The following parameters were set for training:
 
 
 ## 2. SARSA(λ) on Gymnasium FrozenLake-v1 (8x8 Tiles)
-Here, I use the SARSA control to the FrozenLake-v1 8x8 environment. The implementation uses the backward-view of SARSA, which utilises the eligibility trace equation below to weight the contribution of states to a TD-error. The TD update rule used to learn environment is also provided below.
+Here, I use the SARSA policy control algorithm to train the FrozenLake-v1 8x8 environment. The implementation uses the backward-view of SARSA, which utilises the eligibility trace equation below to weight the contribution of states to a TD-error. The TD update rule used to learn environment is also provided below.
 
 **TD Target:**
 
