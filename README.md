@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# Reinforcement Learning 😌
 
 ## 1. Q-Learning on Gymnasium FrozenLake-v1 (8x8 Tiles)
 
